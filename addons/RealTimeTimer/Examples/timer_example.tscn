@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://culgcgr8g3wkf"]
+
+[ext_resource type="Script" path="res://addons/RealTimeTimer/Examples/timer_example.gd" id="1_fq23q"]
+
+[node name="TimerExample" type="Node2D"]
+script = ExtResource("1_fq23q")
