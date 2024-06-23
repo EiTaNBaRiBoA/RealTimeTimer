@@ -41,7 +41,7 @@ func remaining_time_sec() -> int: return _remaining_time_sec()
 
 
 ## to check remaining in HH:MM:SS format
-func remining_seconds_to_hms():
+func remaining_seconds_to_hms():
 	var seconds = remaining_time_sec()
 	var hours = seconds / 3600
 	var minutes = (seconds % 3600) / 60

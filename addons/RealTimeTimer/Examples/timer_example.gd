@@ -33,7 +33,8 @@ func _process(delta: float) -> void:
 
 ## called from OnUpdateTimer Signal
 func PrintSeconds(seconds : float) -> void:
-	print(realTimeTimer.remining_seconds_to_hms())
+	print(realTimeTimer.remaining_seconds_to_hms())
+	print(realTimeTimer.remaining_time_sec())
 
 
 
