@@ -98,4 +98,4 @@ timer.Timeout.connect(func(): print("Interval elapsed!"))
 timer.start_timer()
 ```
 ## License
-MIT License
+This asset is provided under the [MIT License](LICENSE).
